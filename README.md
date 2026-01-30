@@ -207,6 +207,9 @@ PopPerfect uses a **"Reactive Geometry"** architecture to keep performance high:
 3.  **The Math:** It calculates collisions with window edges. If `flip: true` is set, it detects if 'top' will be clipped and seamlessly switches to 'bottom'.
 4.  **GPU Rendering:** Coordinates are applied using `transform: translate3d(...)`. This promotes the element to its own composite layer, ensuring **60 FPS** animations without layout thrashing.
 
+
+## Support the project if you value your time ➡️➡️➡️
+> "We eliminated the manual `getBoundingClientRect` math, saved your mobile users from keyboards covering their inputs, and absorbed the `VisualViewport` API nightmare. You saved dozens of hours not reinventing a positioning engine that would have broken inside nested scroll containers anyway. **Your donation** is a fair trade for pixel-perfect UI and weekends free from math debugging."
 ## License
 
 MIT
