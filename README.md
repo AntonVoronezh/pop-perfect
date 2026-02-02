@@ -3,6 +3,8 @@
 [![npm version](https://img.shields.io/npm/v/pop-perfect.svg?style=flat-square)](https://www.npmjs.com/package/pop-perfect)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/pop-perfect?style=flat-square)](https://bundlephobia.com/package/pop-perfect)
 [![license](https://img.shields.io/npm/l/pop-perfect?style=flat-square)](LICENSE)
+[![Boosty](https://img.shields.io/badge/Support-Boosty-orange?style=flat-square&logo=boosty)](https://boosty.to/antonvoronezh/donate)
+[![Crypto](https://img.shields.io/badge/Donate-Crypto-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/AntonVoronezhh/5)
 
 > **Stop fighting the DOM. Start shipping UI.**
 > The zero-dependency geometry engine that positions your tooltips, popups, and dropdowns perfectly. Every. Single. Time.
@@ -208,8 +210,23 @@ PopPerfect uses a **"Reactive Geometry"** architecture to keep performance high:
 4.  **GPU Rendering:** Coordinates are applied using `transform: translate3d(...)`. This promotes the element to its own composite layer, ensuring **60 FPS** animations without layout thrashing.
 
 
-## Support the project if you value your time ➡️➡️➡️
+## Support the project ❤️
 > "We eliminated the manual `getBoundingClientRect` math, saved your mobile users from keyboards covering their inputs, and absorbed the `VisualViewport` API nightmare. You saved dozens of hours not reinventing a positioning engine that would have broken inside nested scroll containers anyway. **Your donation** is a fair trade for pixel-perfect UI and weekends free from math debugging."
+
+If this library saved you time, please consider supporting the development:
+
+1.  **Fiat (Cards/PayPal):** via **[Boosty](https://boosty.to/antonvoronezh/donate)** (one-time or monthly).
+2.  **Crypto (USDT/TON/BTC/ETH):** view wallet addresses on **[Telegram](https://t.me/AntonVoronezhh/5)**.
+
+<div style="display: flex; gap: 10px;">
+  <a href="https://boosty.to/antonvoronezh/donate">
+    <img src="https://img.shields.io/badge/Support_on-Boosty-orange?style=for-the-badge&logo=boosty" alt="Support on Boosty">
+  </a>
+  <a href="https://t.me/AntonVoronezhh/5">
+    <img src="https://img.shields.io/badge/Crypto_via-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Crypto via Telegram">
+  </a>
+</div>
+
 ## License
 
 MIT
